@@ -1,0 +1,33 @@
+.grid-container {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-auto-flow: column;
+        gap: 0px;
+        }
+.grid-item {
+        border: 10px solid #1e550e;
+        padding: 15px;
+        text-align: center;
+    }
+ .my-button {
+      background-color: #887b09;
+      color: rgb(0, 0, 0);
+      padding: 15px 32px;
+      text-align: center;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+      border: 10px;
+      border-radius: 5px;
+    }
+ .background-info{
+    display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-auto-flow: column;
+        gap: 0px;
+ }
+
+.pg-2-title{
+  color: rgb(104, 104, 196);
+}
